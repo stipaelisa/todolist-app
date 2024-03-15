@@ -6,8 +6,5 @@ The project is focused on using HTML and CSS and Javascript for the replication 
 ## Authors
 
 - <a href="https://github.com/stipaelisa">stipaelisa</a>
-- <a href="[https://aulab.it](https://boolean.careers/)">Boolean Coding Week 7°</a>
+- <a href="https://boolean.careers/">Boolean Coding Week 7°</a>
 
-## Screenshoot
-
-<img class="img-fluid" src="/screenshot.png">
