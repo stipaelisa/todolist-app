@@ -1,0 +1,142 @@
+:root {
+/* COLOR PALETTE */
+  --lightgreen: rgb(210, 239, 232); 
+  --green: rgb(95, 198, 173); 
+  --yellow: rgb(217, 255, 102);
+  --blue: rgb(52, 75, 201);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	padding: 16px;
+	font-family: Inter, sans-serif;
+	background-color: rgb(210, 239, 232);
+    align-items: center;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/* Intestazione */
+.panel {
+    margin-bottom: 16px;
+    border-radius: 13px;    
+    height: 9vh;
+    background-color: var(--green);
+    color: white;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+
+/* To do list */
+
+.empty-list-msg {
+    margin-bottom: 0px;
+}
+.todo-list {
+
+    max-width: 400vh;
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.todo-item {
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    margin: 13px 0
+}
+
+.todo-item p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 16px;
+}
+
+.todo-check {
+    padding: 16px;
+    cursor:pointer;
+	border-radius: 9px 0 0 9px;
+	background-color: rgb(217, 255, 102);
+}
+
+
+/* Pannello aggiungi attività */
+
+.add-todo {
+	display: flex;
+	gap: 20px;
+	padding: 10px;
+}
+
+input {
+	font-size: 16px;
+	padding: 16px;
+	border-radius: 8px;
+	border: none;
+	flex-grow: 1;
+}
+
+button {
+	cursor: pointer;
+	padding: 13px;
+	border: none;
+	border-radius: 9px;
+	background-color: rgb(217, 255, 102);
+}
+
+/* .todo-delete {
+    padding: 16px;
+	border-radius: 0 9px 9px 0px;
+	background-color: rgb(245, 93, 93);
+}
+
+.todo-delete img {
+    max-width: 13px;
+} */
+
+@media screen and (max-width: 280px) {
+    
+    /* GALAXY FOLD */
+    .todo-check {
+        padding: 40px;
+        border-radius: 9px 0 0 9px;
+        background-color: rgb(217, 255, 102);
+    }
+
+    .panel {
+        margin-bottom: 16px;
+        border-radius: 13px;    
+        height: 9vh;
+        background-color: var(--green);
+        color: white;
+    }
+    /* Pannello aggiungi attività */
+
+.add-todo {
+	display: flex;
+	gap: 5px;
+}
+
+input {
+	font-size: 10px;
+}
+
+}
